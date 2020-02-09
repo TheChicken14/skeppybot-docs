@@ -10,7 +10,7 @@ features:
   details: The Skeppy bot can play your favourite tunes in your discord server!
 - title: Levels
   details: The Skeppy bot keeps track of who is the most active in your server!
-- title: Stats
-  details: <Stats />
+- title: Fun
+  details: The Skeppy bot has various fun commands!
 footer: Copyright © 2019-present TheChicken#9522/Wisse Hes
 ---

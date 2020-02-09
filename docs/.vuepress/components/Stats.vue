@@ -1,5 +1,18 @@
 <template>
-    <span>{{ stats.servers }} servers and {{ stats.users }} users</span>
+  <table>
+    <tr>
+      <th>Servers</th>
+      <th>Users</th>
+      <th>Channels</th>
+      <th><a href="/commands.html">Commands</a></th>
+    </tr>
+    <tr>
+      <td>{{ stats.servers }}</td>
+      <td>{{ stats.users }}</td>
+      <td>{{ stats.channels }}</td>
+      <td>{{ stats.commands }}</td>
+    </tr>
+  </table>
 </template>
 
 <script>
@@ -13,7 +26,7 @@ export default {
 
   mounted () {
     axios
-      .get('http://ts.chickenfm.com:8888/api/stats')
+      .get('https://api.skeppybot.xyz/api/stats')
       .then(response => (this.stats = response.data))
   }
 }

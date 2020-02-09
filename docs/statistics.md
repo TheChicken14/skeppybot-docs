@@ -1,1 +1,2 @@
-# statistics
+# Statistics
+<Stats />

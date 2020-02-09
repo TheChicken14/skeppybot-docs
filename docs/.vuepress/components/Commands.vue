@@ -23,7 +23,7 @@ export default {
 
   mounted () {
     axios
-      .get('http://ts.chickenfm.com:8888/api/commands')
+      .get('https://api.skeppybot.xyz/api/commands')
       .then(response => (this.commands = response.data))
   }
 }
