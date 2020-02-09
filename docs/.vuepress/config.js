@@ -7,7 +7,7 @@ module.exports = {
     themeConfig: {
         head: [
             ['link', { type: "image/png", sizes: "256x256", rel: 'icon', href: '/images/favicon.png' }]
-            ['link', { rel: "shortcut icon", type: "image/png", href="/images/favicon.png" }]
+            ['link', { rel: "shortcut icon", type: "image/png", href: "/images/favicon.png" }]
         ],
         nav: [
             { text: 'invite', link: 'https://discordapp.com/oauth2/authorize?client_id=579327336395309062&scope=bot&permissions=2084044031', ...barConfig.nav}
