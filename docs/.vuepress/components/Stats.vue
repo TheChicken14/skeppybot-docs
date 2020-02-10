@@ -5,12 +5,14 @@
       <th>Users</th>
       <th>Channels</th>
       <th><a href="/commands.html">Commands</a></th>
+      <th>Executed commands</th>
     </tr>
     <tr>
       <td>{{ stats.servers }}</td>
       <td>{{ stats.users }}</td>
       <td>{{ stats.channels }}</td>
       <td>{{ stats.commands }}</td>
+      <td>{{ stats.executedCommands }}</td>
     </tr>
   </table>
 </template>
