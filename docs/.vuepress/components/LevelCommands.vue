@@ -9,7 +9,7 @@
         <tr v-for="command in commands">
             <td>{{ command.name }}</td>
             <td>{{ command.description }}</td>
-            <td>{{ commands.usagge }}</td>
+            <td>{{ command.usage }}
             <td>{{ command.aliases.join(", ") }}</td>
         </tr>
     </table>
@@ -25,7 +25,7 @@ export default {
 
   mounted () {
     axios
-      .get('https://api.skeppybot.xyz/api/commands/music')
+      .get('https://api.skeppybot.xyz/api/commands/levels')
       .then(response => (this.commands = response.data))
   }
 }
