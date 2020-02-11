@@ -13,5 +13,13 @@ module.exports = {
             { text: 'Vote', link: 'https://top.gg/bot/579327336395309062' }
         ],
         sidebar: barConfig.sidebar,
+
+        repo: 'TheChicken14/skeppy-bot',
+        repoLabel: 'GitHub!',
+        docsRepo: 'TheChicken14/skeppybot-docs',
+        docsDir: 'docs',
+        docsBranch: 'master',
+        editLinks: true,
+        editLinkText: 'Edit this page'
     }
   }
