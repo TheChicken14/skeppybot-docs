@@ -9,7 +9,7 @@
         <tr v-for="command in commands">
             <td>{{ command.name }}</td>
             <td>{{ command.description }}</td>
-            <td>{{ commands.usagge }}</td>
+            <td>{{ commands.usage }}</td>
             <td>{{ command.aliases.join(", ") }}</td>
         </tr>
     </table>
