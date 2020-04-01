@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/invite"
+  to = "https://discordapp.com/oauth2/authorize?client_id=579327336395309062&scope=bot&permissions=2084044031"
+  status = 302
+  force = true
